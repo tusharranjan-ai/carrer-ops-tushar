@@ -137,6 +137,76 @@ try {
   fail(`Liveness classification tests crashed: ${e.message}`);
 }
 
+// ── 3b. SCANNER ─────────────────────────────────────────────────
+
+console.log('\n3b. Scanner parsing and filters');
+
+try {
+  const scan = await import(pathToFileURL(join(ROOT, 'scan.mjs')).href);
+  const check = (cond, okMsg, failMsg) => (cond ? pass(okMsg) : fail(failMsg));
+
+  // Title filter: whole words, not substrings
+  const tf = scan.buildTitleFilter({ positive: ['AI', 'ML', 'Agent', 'SDET'], negative: ['Strategist', 'Java'] });
+  check(tf('Senior AI Engineer') && tf('Software Engineer, Agents') && tf('Staff SDET'),
+    'Title filter matches whole words and plurals', 'Title filter missed a valid title');
+  check(!tf('Maintenance Technician') && !tf('HTML Developer') && !tf('Retail Associate'),
+    'Title filter ignores substrings ("AI" in Maintenance, "ML" in HTML)', 'Title filter matched a substring');
+  check(!tf('Agent Strategist') && tf('JavaScript AI Engineer'),
+    'Negative keywords are whole-word too', 'Negative keyword matching is wrong');
+
+  // Location filter
+  const lf = scan.buildLocationFilter({ include: ['United States', 'Remote', 'TX', 'IN', 'Texas'], exclude: ['United Kingdom', 'India'] });
+  check(lf('Austin, TX') && lf('Remote - Texas') && lf('') && lf('3 Locations'),
+    'Location filter keeps US and unknown locations', 'Location filter dropped a US/unknown location');
+  check(!lf('Remote - United Kingdom') && !lf('Bengaluru, India') && !lf('Hybrid in Lisbon'),
+    'Location filter drops excluded countries; state codes are case-sensitive', 'Location filter kept a non-US location');
+
+  // Freshness
+  const now = new Date('2026-09-28T00:00:00Z');
+  check(scan.parseWorkdayPostedOn('Posted 30+ Days Ago', now).startsWith('2026-08-29')
+    && scan.parseWorkdayPostedOn('Posted Today', now).startsWith('2026-09-28'),
+    'Workday "Posted N Days Ago" parsed', 'Workday postedOn parsing is wrong');
+  check(scan.isStale('2026-07-01T00:00:00Z', 30, now) && !scan.isStale('2026-09-20T00:00:00Z', 30, now) && !scan.isStale(null, 30, now),
+    'Stale postings detected; undated postings kept', 'isStale is wrong');
+
+  // Source detection
+  const wd = scan.detectApi({ careers_url: 'https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One' });
+  check(wd?.type === 'workday' && wd.url === 'https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs',
+    'Workday board detected (locale stripped)', `Workday detection wrong: ${JSON.stringify(wd)}`);
+  const sr = scan.detectApi({ careers_url: 'https://jobs.smartrecruiters.com/ServiceNow' });
+  check(sr?.type === 'smartrecruiters' && sr.companyId === 'ServiceNow',
+    'SmartRecruiters board detected', `SmartRecruiters detection wrong: ${JSON.stringify(sr)}`);
+  check(scan.detectApi({ careers_url: 'https://boards.greenhouse.io/acme' })?.type === 'greenhouse',
+    'Legacy boards.greenhouse.io URLs detected', 'boards.greenhouse.io not detected');
+
+  // Parsers (fixtures follow each API's documented response shape)
+  const [w] = scan.parseWorkday({ jobPostings: [{ title: 'Staff SDET', externalPath: '/job/Plano-TX/Staff-SDET_R1', locationsText: 'Plano, TX', postedOn: 'Posted 2 Days Ago' }] },
+    'Capital One', 'https://capitalone.wd12.myworkdayjobs.com/Capital_One', now);
+  check(w.url === 'https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Staff-SDET_R1' && w.postedAt.startsWith('2026-09-26'),
+    'Workday parser builds public job URL', `Workday parser wrong: ${JSON.stringify(w)}`);
+  const [s] = scan.parseSmartRecruiters({ content: [{ id: '744', name: 'QA Lead', releasedDate: '2026-09-01T00:00:00Z', location: { city: 'Austin', region: 'TX', country: 'us', remote: true } }] }, 'ServiceNow', 'ServiceNow');
+  check(s.url === 'https://jobs.smartrecruiters.com/ServiceNow/744' && s.location === 'Austin, TX, US · Remote',
+    'SmartRecruiters parser OK', `SmartRecruiters parser wrong: ${JSON.stringify(s)}`);
+  const [j] = scan.parseJSearch({ data: [{ job_title: 'Staff SDET', employer_name: 'Acme', job_apply_link: 'https://www.linkedin.com/jobs/view/1', job_city: 'Austin', job_state: 'TX', job_country: 'US', job_is_remote: false, job_publisher: 'LinkedIn', job_posted_at_datetime_utc: '2026-09-27T00:00:00.000Z' }] });
+  check(j.via === 'LinkedIn' && j.location === 'Austin, TX, US' && j.company === 'Acme',
+    'JSearch parser keeps publisher (LinkedIn/Indeed)', `JSearch parser wrong: ${JSON.stringify(j)}`);
+  const [a] = scan.parseAdzuna({ results: [{ title: '<strong>SDET</strong> II', company: { display_name: 'Acme Inc' }, location: { display_name: 'Austin, Travis County' }, redirect_url: 'https://www.adzuna.com/details/1', created: '2026-09-20T00:00:00Z' }] });
+  check(a.title === 'SDET II', 'Adzuna parser strips HTML from titles', `Adzuna parser wrong: ${JSON.stringify(a)}`);
+
+  // Search tasks: sources without keys are skipped, not fetched
+  const { tasks, skipped } = scan.buildSearchTasks(
+    { queries: ['Staff SDET'], location: 'United States', sources: { jsearch: {}, adzuna: {}, remotive: { enabled: false } } },
+    { JSEARCH_API_KEY: 'k' }, 7);
+  check(tasks.length === 1 && tasks[0].url.includes('date_posted=week') && skipped.length === 1 && skipped[0].startsWith('adzuna'),
+    'Job-search tasks built; keyless sources skipped', `Search tasks wrong: ${tasks.length} tasks, skipped ${skipped}`);
+
+  // Cross-source dedup
+  check(scan.roleKey('Acme, Inc.', 'Staff  SDET') === scan.roleKey('Acme', 'staff sdet'),
+    'Role dedup normalizes company suffixes and spacing', 'roleKey normalization wrong');
+} catch (e) {
+  fail(`Scanner tests crashed: ${e.message}`);
+}
+
 // ── 4. DASHBOARD BUILD ──────────────────────────────────────────
 
 if (!QUICK) {

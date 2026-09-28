@@ -63,6 +63,33 @@ title_filter:
     - "Quality Engineering Manager"
     - "Test Manager"
   negative:
+    # -- Non-engineering roles that match "Agent"/"AI" --
+    - "Strategist"
+    - "Strategy Manager"
+    - "Speaking"
+    - "Product Manager"
+    - "Product Designer"
+    - "Designer"
+    - "Analyst"
+    - "Recruiter"
+    - "Counsel"
+    - "Operations"
+    - "GTM"
+    - "Education"
+    - "Enablement"
+    - "Deployment Manager"
+    - "Development Manager"
+    - "Customer Success"
+    - "Account Manager"
+    - "New Grad"
+    - "Frontend"
+    - "Front End"
+    - "Manufacturing"
+    - "Data Center"
+    - "Kernel"
+    - "Inference"
+    - "Research Engineer"
+    - "Research Scientist"
     - "Junior"
     - "Intern"
     - "Associate"
@@ -100,6 +127,299 @@ title_filter:
     - "Head"
     - "Director"
     - "Manager"
+
+# -- Location filter --
+# exclude always wins; otherwise the location must match include.
+# Unknown locations ("", "N/A", "3 Locations") are kept (keep_unknown).
+# Short ALL-CAPS codes (TX, NY, US) match case-sensitively.
+location_filter:
+  keep_unknown: true
+  include:
+    - "United States"
+    - "USA"
+    - "US"
+    - "U.S."
+    - "Remote"
+    - "Anywhere"
+    - "Americas"
+    - "North America"
+    - "Alabama"
+    - "Alaska"
+    - "Arizona"
+    - "Arkansas"
+    - "California"
+    - "Colorado"
+    - "Connecticut"
+    - "Delaware"
+    - "Florida"
+    - "Georgia"
+    - "Hawaii"
+    - "Idaho"
+    - "Illinois"
+    - "Indiana"
+    - "Iowa"
+    - "Kansas"
+    - "Kentucky"
+    - "Louisiana"
+    - "Maine"
+    - "Maryland"
+    - "Massachusetts"
+    - "Michigan"
+    - "Minnesota"
+    - "Mississippi"
+    - "Missouri"
+    - "Montana"
+    - "Nebraska"
+    - "Nevada"
+    - "New Hampshire"
+    - "New Jersey"
+    - "New Mexico"
+    - "New York"
+    - "North Carolina"
+    - "North Dakota"
+    - "Ohio"
+    - "Oklahoma"
+    - "Oregon"
+    - "Pennsylvania"
+    - "Rhode Island"
+    - "South Carolina"
+    - "South Dakota"
+    - "Tennessee"
+    - "Texas"
+    - "Utah"
+    - "Vermont"
+    - "Virginia"
+    - "Washington"
+    - "West Virginia"
+    - "Wisconsin"
+    - "Wyoming"
+    - "District of Columbia"
+    - "AL"
+    - "AK"
+    - "AZ"
+    - "AR"
+    - "CA"
+    - "CO"
+    - "CT"
+    - "DE"
+    - "FL"
+    - "GA"
+    - "HI"
+    - "ID"
+    - "IL"
+    - "IN"
+    - "IA"
+    - "KS"
+    - "KY"
+    - "LA"
+    - "ME"
+    - "MD"
+    - "MA"
+    - "MI"
+    - "MN"
+    - "MS"
+    - "MO"
+    - "MT"
+    - "NE"
+    - "NV"
+    - "NH"
+    - "NJ"
+    - "NM"
+    - "NY"
+    - "NC"
+    - "ND"
+    - "OH"
+    - "OK"
+    - "OR"
+    - "PA"
+    - "RI"
+    - "SC"
+    - "SD"
+    - "TN"
+    - "TX"
+    - "UT"
+    - "VT"
+    - "VA"
+    - "WA"
+    - "WV"
+    - "WI"
+    - "WY"
+    - "DC"
+    - "Austin"
+    - "Dallas"
+    - "Houston"
+    - "San Antonio"
+    - "Plano"
+    - "Irving"
+    - "Round Rock"
+    - "San Francisco"
+    - "Bay Area"
+    - "San Jose"
+    - "Mountain View"
+    - "Palo Alto"
+    - "Sunnyvale"
+    - "Menlo Park"
+    - "Seattle"
+    - "Bellevue"
+    - "Redmond"
+    - "New York City"
+    - "NYC"
+    - "Brooklyn"
+    - "Boston"
+    - "Cambridge"
+    - "Chicago"
+    - "Denver"
+    - "Boulder"
+    - "Atlanta"
+    - "Raleigh"
+    - "Durham"
+    - "Charlotte"
+    - "Miami"
+    - "Phoenix"
+    - "Los Angeles"
+    - "San Diego"
+    - "Portland"
+    - "Salt Lake City"
+    - "Minneapolis"
+    - "Pittsburgh"
+    - "Philadelphia"
+    - "Detroit"
+    - "Nashville"
+    - "McLean"
+    - "Reston"
+    - "Richmond"
+    - "Wilmington"
+    - "Jersey City"
+    - "Foster City"
+  exclude:
+    - "United Kingdom"
+    - "UK"
+    - "England"
+    - "London"
+    - "Ireland"
+    - "Dublin"
+    - "Germany"
+    - "Berlin"
+    - "Munich"
+    - "France"
+    - "Paris"
+    - "Spain"
+    - "Madrid"
+    - "Barcelona"
+    - "Portugal"
+    - "Lisbon"
+    - "Netherlands"
+    - "Amsterdam"
+    - "Belgium"
+    - "Switzerland"
+    - "Zurich"
+    - "Sweden"
+    - "Stockholm"
+    - "Denmark"
+    - "Norway"
+    - "Finland"
+    - "Poland"
+    - "Warsaw"
+    - "Serbia"
+    - "Belgrade"
+    - "Romania"
+    - "Czech"
+    - "Prague"
+    - "Austria"
+    - "Vienna"
+    - "Italy"
+    - "Milan"
+    - "Israel"
+    - "Tel Aviv"
+    - "India"
+    - "Bengaluru"
+    - "Bangalore"
+    - "Hyderabad"
+    - "Pune"
+    - "Mumbai"
+    - "Delhi"
+    - "Gurugram"
+    - "Chennai"
+    - "Japan"
+    - "Tokyo"
+    - "Korea"
+    - "Seoul"
+    - "China"
+    - "Beijing"
+    - "Shanghai"
+    - "Hong Kong"
+    - "Taiwan"
+    - "Taipei"
+    - "Singapore"
+    - "Australia"
+    - "Sydney"
+    - "Melbourne"
+    - "New Zealand"
+    - "Philippines"
+    - "Manila"
+    - "Vietnam"
+    - "Indonesia"
+    - "Malaysia"
+    - "Brazil"
+    - "São Paulo"
+    - "Sao Paulo"
+    - "Argentina"
+    - "Buenos Aires"
+    - "Colombia"
+    - "Bogota"
+    - "Chile"
+    - "Costa Rica"
+    - "EMEA"
+    - "APAC"
+    - "LATAM"
+    - "Europe"
+    - "EU"
+    - "Asia"
+
+# -- Freshness --
+# Drop postings older than this (where the source reports a date).
+max_age_days: 30
+
+# -- Server-side search for big ATS boards (Workday, SmartRecruiters) --
+# Enterprise boards hold thousands of jobs; only these searches are fetched.
+ats_search_terms:
+  - "SDET"
+  - "Software Engineer in Test"
+  - "Test Automation"
+  - "Quality Engineer"
+  - "QA"
+  - "AI Quality"
+  - "Agentic"
+ats_max_pages: 3
+
+# -- Job-board search (aggregators) --
+# jsearch: Google for Jobs index — LinkedIn, Indeed, Glassdoor, ZipRecruiter
+#          and company sites. Free tier ~200 requests/month:
+#          https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch → JSEARCH_API_KEY in .env
+# adzuna:  free API key at https://developer.adzuna.com → ADZUNA_APP_ID + ADZUNA_APP_KEY in .env
+# remotive: remote-only board, no key (they ask for only a few calls per day)
+# Each query costs one request per source per scan.
+job_search:
+  location: "United States"
+  queries:
+    - "Staff SDET"
+    - "Staff Software Engineer in Test"
+    - "AI Quality Engineer"
+    - "LLM Evaluation Engineer"
+    - "Agentic AI Engineer"
+    - "QA Engineering Manager"
+  sources:
+    jsearch:
+      enabled: true
+      country: us
+    adzuna:
+      enabled: true
+      country: us
+    remotive:
+      enabled: true
+      queries:
+        - "SDET"
+        - "QA Automation"
 
 # -- Search queries --
 # Each query triggers a WebSearch. Use site: to filter by portal.
@@ -992,7 +1312,7 @@ tracked_companies:
   - name: Plaid
     careers_url: https://jobs.lever.co/plaid
     notes: "Payments / open banking APIs."
-    enabled: true
+    enabled: false
 
   - name: Databricks
     careers_url: https://www.databricks.com/company/careers
@@ -1009,4 +1329,67 @@ tracked_companies:
   - name: Braintrust
     careers_url: https://jobs.ashbyhq.com/braintrust
     notes: "LLM evaluation platform. Direct AI-quality fit."
+    enabled: true
+
+  # -- Tushar: enterprise fintech / big tech on Workday + SmartRecruiters --
+  # Scanned via ats_search_terms. Board URLs not yet verified live.
+
+  - name: Capital One
+    careers_url: https://capitalone.wd12.myworkdayjobs.com/Capital_One
+    notes: "Banking/cards. Large Plano TX + McLean hubs. Sponsors H-1B."
+    enabled: true
+
+  - name: Mastercard
+    careers_url: https://mastercard.wd1.myworkdayjobs.com/CorporateCareers
+    notes: "Payments network — direct Visa-domain transfer."
+    enabled: true
+
+  - name: PayPal
+    careers_url: https://paypal.wd1.myworkdayjobs.com/jobs
+    notes: "Payments. Austin office."
+    enabled: true
+
+  - name: Fidelity Investments
+    careers_url: https://fmr.wd1.myworkdayjobs.com/FidelityCareers
+    notes: "Financial services. Westlake TX hub."
+    enabled: true
+
+  - name: Salesforce
+    careers_url: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
+    notes: "Agentforce — heavy agentic AI investment."
+    enabled: true
+
+  - name: NVIDIA
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+    notes: "Austin office. AI platform QA."
+    enabled: true
+
+  - name: Adobe
+    careers_url: https://adobe.wd5.myworkdayjobs.com/external_experienced
+    notes: "Austin office. GenAI (Firefly) quality."
+    enabled: true
+
+  - name: Dell Technologies
+    careers_url: https://dell.wd1.myworkdayjobs.com/External
+    notes: "Round Rock / Austin HQ."
+    enabled: true
+
+  - name: CrowdStrike
+    careers_url: https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers
+    notes: "Austin HQ. Security + agentic AI."
+    enabled: true
+
+  - name: Workday
+    careers_url: https://workday.wd5.myworkdayjobs.com/Workday
+    notes: "Enterprise SaaS, AI agents."
+    enabled: true
+
+  - name: Walmart Global Tech
+    careers_url: https://walmart.wd5.myworkdayjobs.com/WalmartExternal
+    notes: "Former employer — rehire eligible?"
+    enabled: true
+
+  - name: ServiceNow
+    careers_url: https://jobs.smartrecruiters.com/ServiceNow
+    notes: "AI agents platform. SmartRecruiters board."
     enabled: true

@@ -100,6 +100,39 @@ title_filter:
     - "Head"
     - "Director"
 
+# -- Optional filters (uncomment to use) --
+# Location: exclude always wins; otherwise the location must match include.
+# Unknown locations ("", "N/A", "3 Locations") are kept unless keep_unknown: false.
+# Short ALL-CAPS codes (TX, NY, US) match case-sensitively.
+# location_filter:
+#   keep_unknown: true
+#   include: ["United States", "US", "Remote", "California", "CA", "New York", "NY"]
+#   exclude: ["United Kingdom", "India", "EMEA", "APAC"]
+#
+# Drop postings older than N days (where the source reports a date):
+# max_age_days: 30
+
+# -- Workday / SmartRecruiters --
+# Add enterprise boards to tracked_companies by careers_url, e.g.
+#   https://{tenant}.wd{N}.myworkdayjobs.com/{site}   or   https://jobs.smartrecruiters.com/{Company}
+# Those boards hold thousands of jobs, so only these server-side searches are fetched:
+# ats_search_terms: ["AI Engineer", "Solutions Architect"]
+# ats_max_pages: 3
+
+# -- Job-board search (aggregators) --
+# jsearch: Google for Jobs index (LinkedIn, Indeed, Glassdoor, ZipRecruiter…). Free key:
+#          https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch → JSEARCH_API_KEY in .env
+# adzuna:  free key at https://developer.adzuna.com → ADZUNA_APP_ID + ADZUNA_APP_KEY in .env
+# remotive: remote-only board, no key needed.
+# Sources without keys are skipped. Each query = 1 request per source per scan.
+# job_search:
+#   location: "United States"
+#   queries: ["Senior AI Engineer", "Forward Deployed Engineer"]
+#   sources:
+#     jsearch: { enabled: true, country: us }
+#     adzuna: { enabled: true, country: us }
+#     remotive: { enabled: true }
+
 # -- Search queries --
 # Each query triggers a WebSearch. Use site: to filter by portal.
 # The scanner extracts title, URL, and company from results.
