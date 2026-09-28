@@ -1,0 +1,78 @@
+# Career-Ops Profile Configuration — Tushar Ranjan
+# Single source of truth for personal data across all modes.
+
+candidate:
+  full_name: "Tushar Ranjan"
+  email: "tushar.uz@gmail.com"
+  phone: "+1 469-664-3717"
+  location: "Austin, TX"
+  linkedin: "linkedin.com/in/tusharranjan2904"
+  # portfolio_url: ""
+  # github: ""
+
+target_roles:
+  # North Star roles — what we're optimizing for
+  primary:
+    - "Staff / Principal AI Quality Engineer"
+    - "LLM Evaluation Engineer"
+    - "Staff Agentic AI Engineer"
+    - "Staff / Principal SDET"
+    - "Head of Quality Engineering / QA Manager"
+  archetypes:
+    - name: "AI Quality / LLM Evaluation Engineer"
+      level: "Staff/Principal"
+      fit: "primary"
+    - name: "Agentic AI / AI Automation Engineer"
+      level: "Staff/Senior"
+      fit: "primary"
+    - name: "QA / Test Engineering Leadership"
+      level: "Manager/Head/Architect"
+      fit: "secondary"
+    - name: "Staff SDET / Test Architect (non-AI)"
+      level: "Staff/Principal"
+      fit: "secondary"
+    - name: "AI Platform / Developer Productivity"
+      level: "Senior/Staff"
+      fit: "adjacent"
+
+narrative:
+  headline: "Staff Test Engineer who builds agentic AI systems that replace manual QA"
+  exit_story: >-
+    14+ years in test automation across payments, retail and telecom. At Visa I went
+    from building the automation frameworks every card-payments team uses to building
+    agentic systems (ATOM, MCP servers, RAG) that automate the QA lifecycle itself.
+    Now looking for a role where AI quality, evaluation and agentic automation are the
+    core job, not a side project.
+  superpowers:
+    - "Agentic QA automation end to end: Jira requirements to generated tests to execution to results, with zero manual handoff (ATOM)"
+    - "Custom MCP servers (Spring AI) wiring enterprise systems (Oracle, GitHub, Jira, Wiki) into agents"
+    - "Enterprise-scale test frameworks: adopted by 100+ engineers, 500+ scenarios, 90% automation coverage"
+    - "CI/CD for mission-critical payments: regression cut 80% (5 days to 1 day)"
+    - "Java + Python depth across API, UI, service virtualization, and multi-cloud"
+  proof_points:
+    - name: "ATOM — Automated Test Orchestration with MCP (Visa)"
+      hero_metric: "Jira label to executed tests + results in Zephyr, zero manual QA handoff"
+    - name: "Visa API/UI automation frameworks"
+      hero_metric: "Adopted across all card-payments teams; 100+ engineers, 500+ scenarios, 90% automated"
+    - name: "Regression pipeline redesign (Jenkins + GitHub Actions)"
+      hero_metric: "Regression cycle 5 days to 1 day (-80%)"
+    - name: "Security Vulnerability Agent"
+      hero_metric: "Auto-detects dependency CVEs and raises upgrade PRs"
+    - name: "Payments RAG assistant (Vector DB)"
+      hero_metric: "Payment API to ISO field mapping for client migrations"
+
+compensation:
+  target_range: "$230K-300K"
+  currency: "USD"
+  minimum: "$210K"
+  location_flexibility: "Remote (US), Austin hybrid/on-site, or open to relocation for the right role"
+
+location:
+  country: "United States"
+  city: "Austin, TX"
+  timezone: "CT"
+  visa_status: "H-1B — requires H-1B transfer sponsorship"
+  onsite_availability: "Open to relocation within the US"
+
+cv:
+  output_format: "html"
