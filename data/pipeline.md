@@ -250,4 +250,102 @@
 - [ ] https://jobs.lever.co/palantir/3c84af24-b7aa-483e-b2c3-e1d83494fe15 | Palantir | Software Engineer - Developer Productivity
 - [ ] https://jobs.lever.co/palantir/71ed917e-850a-484b-9454-fa66bdf24540 | Palantir | Software Engineer - Frontend Developer Productivity
 
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/Staff-AI-Engineer-role--Remote-Eligible-_R1002560-1 | Capital One | Staff AI Engineer role (Remote Eligible)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/Staff-AI-Engineer---Enterprise-Analysis-Platform--Remote-Eligible-_R1002547-1 | Capital One | Staff AI Engineer - Enterprise Analysis Platform (Remote Eligible)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/AI-Engineer-4--LLM-Gateway--FM-Hosting-_R1002514-1 | Capital One | AI Engineer 4 (LLM Gateway, FM Hosting)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Agentic-Technology_R1002186-2 | Capital One | Full-stack Engineer 4, Agentic Technology
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Full-stack-Engineer-4--Agentic-Orchestration_R1002473-1 | Capital One | Full-stack Engineer 4, Agentic Orchestration
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/AI-Engineer-3_R1002474-1 | Capital One | AI Engineer 3
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/AI-Engineer-5--MLX-_R1002469-1 | Capital One | AI Engineer 5 (MLX)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Full-stack-Engineer-5--Agentic-Orchestration_R1002456-1 | Capital One | Full-stack Engineer 5, Agentic Orchestration
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Cambridge-MA/AI-Engineer-4_R1002467 | Capital One | AI Engineer 4
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-4--Python--AWS--SQL--GenAI---Enterprise-Platforms-Technology-_R1002037-1 | Capital One | Machine Learning Engineer 4 (Python, AWS, SQL, GenAI) (Enterprise Platforms Technology)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Riverwoods-IL/Full-Stack-Engineer-4--Automation-Quality-Engineer-_R1001415-1 | Capital One | Full-Stack Engineer 4 (Automation Quality Engineer)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/AI-Engineer-4--MLX-_R1002364-1 | Capital One | AI Engineer 4 (MLX)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/AI-Engineer-5--MLXT-_R1002363-1 | Capital One | AI Engineer 5 (MLXT)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/AI-Engineer-5--Gen-AI-Platform-Services-_R1002288-1 | Capital One | AI Engineer 5 (Gen AI Platform Services)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Data-Engineer-4--Python--AWS--Spark--Kafka--SQL--Snowflake--Databricks--GenAI-_R1002121-1 | Capital One | Data Engineer 4 (Python, AWS, Spark, Kafka, SQL, Snowflake, Databricks, GenAI)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/Director--AI-Engineer--Remote-Eligible-_R1002269 | Capital One | Director, AI Engineer (Remote Eligible)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/Senior-Staff-AI-Engineer---Agentic-AI-Platform--Remote-Eligible-_R1002274-1 | Capital One | Senior Staff AI Engineer - Agentic AI Platform (Remote Eligible)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/Sr-Staff-AI-Engineer--Remote-Eligible-_R1002270-1 | Capital One | Sr. Staff AI Engineer (Remote Eligible)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-Stack-Engineer-4--People-Tech--GenAI---Agentic-Systems--LangChain--LangGraph-_R1001896-1 | Capital One | Full Stack Engineer 4- People Tech- GenAI & Agentic Systems (LangChain, LangGraph)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/AI-Engineer-4--Vision-model--VLM--customization-experience-_R1002074-1 | Capital One | AI Engineer 4 (Vision model (VLM) customization experience)
+- [ ] https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/AI-Engineer-4--Gen-AI-Platform-Services-_R1002056-1 | Capital One | AI Engineer 4 (Gen AI Platform Services)
+- [ ] https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Expert-Agent-Builder--Forward-Deployed-Engineering_JR360234 | Salesforce | Expert Agent Builder, Forward Deployed Engineering
+- [ ] https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Member-of-Technical-Staff---Machine-Learning---Agent-Security-Engineering_JR358244 | Salesforce | Member of Technical Staff — Machine Learning & Agent Security Engineering
+- [ ] https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Lead-Software-Engineer---Enterprise-Agents_JR355645 | Salesforce | Lead Software Engineer - Enterprise Agents
+- [ ] https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Product-Management-Director_JR358007 | Salesforce | Director of Product Management, Developer Experience
+- [ ] https://paypal.wd1.myworkdayjobs.com/jobs/job/Austin-Texas-United-States-of-America/Staff-Product-Security-AI-Engineer_R0137563 | PayPal | Staff Product Security AI Engineer
+- [ ] https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Principal-Agentic-Engineer_R0137880 | PayPal | Principal Agentic Engineer
+- [ ] https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Redmond-WA/Engineer-III---Cloud-SDET---Lightning--Remote-_R24950 | CrowdStrike | Sr. Engineer - Cloud SDET - Lightning (Hybrid)
+- [ ] https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Canada---Remote-ON/Sandbox-Agentic-Engineer--Remote--CAN-_R28164 | CrowdStrike | Sandbox Agentic Engineer (Remote, CAN)
+- [ ] https://fmr.wd1.myworkdayjobs.com/FidelityCareers/job/Covington-KY/Senior-Process-Automation-Engineer--Power-Apps--SQL--RPA--JavaScript-_2128624 | Fidelity Investments | Senior Process Automation Engineer (Power Apps, SQL, RPA, JavaScript)
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-AI-Engineer_R-288922 | Mastercard | Senior AI Engineer
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Senior-AI-Engineer_R-286584 | Mastercard | Senior AI Engineer, Big Data & AI Solutions
+- [ ] https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Manager--Product-Management--Agentic-Commerce---Commercialization-_R-291355 | Mastercard | Manager, Product Management (Agentic Commerce + Commercialization)
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/New-York/Software-Quality-Engineer_R169819 | Adobe | Software Quality Engineer
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Director-Product-Management--IC---GenAI-Model-Customization_R171377-1 | Adobe | Director Product Management (IC), GenAI Model Customization
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Principle-Engineering-Program-Manager--Agentic-Builder-Experiences-_R170800-1 | Adobe | Principle Engineering Program Manager, Agentic Builder Experiences 
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Senior-Software-Quality-Engineer--Agentic-Harness_R171762 | Adobe | Senior Software Quality Engineer, Agentic Harness
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Senior-Applied-AI-Engineer--Creative-Systems---Brand-Intelligence--Adobe-Express_R168858 | Adobe | Senior Applied AI Engineer– Creative Systems & Brand Intelligence, Adobe Express
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Principal-Architect---Security--Privacy-and-Governance-in-Large-scale-Enterprise-Agentic-AI-Solutions_R171198 | Adobe | Principal Architect — Distributed Systems & Agentic AI Security, Governance
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Software-Engineer---Experience-League-Knowledge-Platform---GenAI-Services_R166676 | Adobe | Senior Software Engineer — Experience League Knowledge Platform & GenAI Services
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Software-Engineer--Model---Partnerships-Management--Agentic-Builders-Experience-team-_R170137-1 | Adobe | Senior Software Engineer  Model & Partnerships Management (Agentic Builders Experience team)
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Lehi/Senior-SOAR-Engineer_R171215 | Adobe | Senior Security Automation Engineer
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Seattle/Senior-Security-Automation-Engineer--Web---Edge-Security_R171674 | Adobe | Senior Security Automation Engineer, Web & Edge Security
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Principal-AI-Systems-Engineer---C-----Applied-AI_R170076 | Adobe | Senior AI Systems Engineer — C++ / Applied AI
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/AI-Agent-Engineer_R158282 | Adobe | Senior / AI Agent Engineer, Brand Concierge
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Core-Agent-Engineer_R171792 | Adobe | Core Agent Engineer
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/AI-Engineer-4_R170716-1 | Adobe | AI Engineer 4
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Director--Engineering---Agentic-Product_R170801 | Adobe | Director, Engineering – Agentic Product
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/Sr-Applied-AI-Engineer_R171752 | Adobe | Sr. Applied AI Engineer
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Applied-AI-Engineer_R168901 | Adobe | Applied AI Engineer
+- [ ] https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Engineering-Program-Manager---GenAI_R170471 | Adobe | Senior Engineering Program Manager - GenAI
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000151076459 | ServiceNow | Senior Staff Software Engineer - Agentic AI
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000150407739 | ServiceNow | Senior Staff Software Engineer, Developer Experience — Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000149934859 | ServiceNow | Staff Software Engineer, Agentic App Platform - Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000147350414 | ServiceNow | Senior Software Engineer, Agentic Systems - Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000147350239 | ServiceNow | Staff Software Engineer, Agentic Systems - Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000147349629 | ServiceNow | Senior Staff Software Engineer, Agentic Systems - Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000147347919 | ServiceNow | Senior Software Engineer, Agentic Platform - Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000147349455 | ServiceNow | Senior Staff Machine Learning Engineer, Agentic Systems - Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000152322404 | ServiceNow | Sr Staff AI Engineer - Veza
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000151058824 | ServiceNow | Senior AI Agent Engineer | Moveworks
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000146802606 | ServiceNow |  Senior Staff AI Agent Engineer – Moveworks | Customer Deployment
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000146563519 | ServiceNow | Senior AI Agent Engineer | Moveworks - Federal
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer-in-Test---Datacenter-Server-OS_JR2011122 | NVIDIA | Platform Software Validation Engineer - SDET
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer-in-Test--Confidential-Computing---SDET_JR2020429-1 | NVIDIA | Senior Software Development Engineer in Test, Confidential Computing - SDET
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer-in-Test---NPI-Bring-up-SDET_JR2025023-1 | NVIDIA | Senior Software Development Engineer in Test - NPI Bring-up SDET
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Development-Engineer-in-Test_JR2020431 | NVIDIA | Senior Software Development Engineer in Test
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--Robotics-Quality-Assurance_JR2003248 | NVIDIA | Senior Manager, Robotics Quality Assurance
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Engagement-Tech-Lead--Agentic-AI_JR2021353 | NVIDIA | Engagement Tech Lead, Agentic AI
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Lead-Systems-Software-Test-Engineer---CSP-Engagements_JR2020107 | NVIDIA | Lead Systems Software Test Engineer – CSP Engagements
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Poland-Warsaw/Senior-QA-Automation-Engineer--Network-Simulation-Platform_JR2024414 | NVIDIA | Senior QA Automation Engineer, Network Simulation Platform
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-System-Test-Engineer--Networking_JR2022625 | NVIDIA | Senior System Test Engineer, Networking
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Nvlink-QA-Engineer_JR2025743 | NVIDIA | Nvlink QA Engineer
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Engineering-Manager--Agentic-AI_JR2026543 | NVIDIA | Engineering Manager, Agentic AI
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-SOCD-Applied-AI-Engineer_JR2020550 | NVIDIA | Senior SOCD Applied AI Engineer
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Context-Fusion-AI-Engineer---Autonomous-Vehicles_JR2025163 | NVIDIA | Senior Context Fusion AI Engineer - Autonomous Vehicles
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Advocate---Agentic-AI_JR2017689 | NVIDIA | Developer Advocate – Agentic AI
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-DevOps-Engineer--AI-Agent-Platforms_JR2021704 | NVIDIA | Senior DevOps Engineer, AI Agent Platforms
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Software-Engineer--AI-Agent-Compute_JR2021516-1 | NVIDIA | Senior Software Engineer, AI Agent Compute
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Developer-Technology-Engineer---Agentic-SoC-Performance_JR2021919 | NVIDIA | Senior Developer Technology Engineer - Agentic AI
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---Agentic-Automation_JR2024734 | NVIDIA | Senior Staff Software Engineer - Agentic Automation
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Compiler-Engineer--Agentic-Compiler-Systems_JR2026138-1 | NVIDIA | Senior Compiler Engineer, Agentic Compiler Systems
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Agentic-AI-Lead--Partner-Co-Design_JR2021355 | NVIDIA | Applied Agentic AI Lead, Partner Co-Design
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Staff-Security-Engineer---PAM-and-Agentic-Identity_JR2024380 | NVIDIA | Staff Security Engineer - PAM and Agentic Identity
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-High-Performance-AI-Engineer--Agentic-AI_JR2025164 | NVIDIA | Senior High Performance AI Engineer, Agentic AI
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Remote/Senior-Developer-Relations-Manager---Agentic-Healthcare-AI_JR2025056 | NVIDIA | Senior Developer Relations Manager – Agentic Healthcare AI
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Cyber-Security-Engineer---Agentic-Identity-and-Security_JR2016696 | NVIDIA | Principal Cyber Security Engineer - Agentic Identity and Security
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Engineer--AI-Agents-and-Software-Platforms_JR2018953 | NVIDIA | Senior AI Engineer and Agentic Platforms - Network Architecture
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Software-Engineering-Manager--Agentic-Transformation-for-Graphics-Systems_JR2024865 | NVIDIA | Software Engineering Manager, Agentic Transformation for Graphics Systems
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer--Local-AI---Agents-and-Systems_JR2026735 | NVIDIA | Senior Engineer, Local AI - Agents and Systems
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---Agentic-AI-Applications-and-Foundations_JR2026639 | NVIDIA | Senior Staff Software Engineer — Agentic AI Applications and Foundations
+- [ ] https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-API-Architect--Product-Engineering---Agent-Ready-APIs---Data_JR-0108218 | Workday | Principal API Architect, Product Engineering – Agent‑Ready APIs & Data
+- [ ] https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CO-Boulder/Senior-AI-Engineer---Agent-Factory_JR-0109463 | Workday | Senior AI Engineer - Agent Factory
+- [ ] https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CO-Boulder/Software-Engineer-Senior-Software-Engineer---AI-Platform--Agent-Runtime-_JR-0109507 | Workday | Software Engineer/Senior Software Engineer - AI Platform (Agent Cell)
+- [ ] https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-AI-UX-Lead_JR-0109765-1 | Workday | Principal Software Engineer, Agentic UX
+- [ ] https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Full-Stack-Software-Engineer---Agent-Platform_JR-0107451-1 | Workday | Senior Full Stack Software Engineer - Agent Platform
+- [ ] https://workday.wd5.myworkdayjobs.com/Workday/job/USA-GA-Atlanta/Principal-Full-Stack-Engineer---Agent-Platform_JR-0109720-1 | Workday | Principal Full Stack Engineer - Agent Platform
+
 ## Procesadas

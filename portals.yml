@@ -1371,8 +1371,8 @@ tracked_companies:
 
   - name: Dell Technologies
     careers_url: https://dell.wd1.myworkdayjobs.com/External
-    notes: "Round Rock / Austin HQ."
-    enabled: true
+    notes: "Round Rock / Austin HQ. Workday board returns 422 — site name unknown, disabled."
+    enabled: false
 
   - name: CrowdStrike
     careers_url: https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers
@@ -1386,8 +1386,8 @@ tracked_companies:
 
   - name: Walmart Global Tech
     careers_url: https://walmart.wd5.myworkdayjobs.com/WalmartExternal
-    notes: "Former employer — rehire eligible?"
-    enabled: true
+    notes: "Former employer — rehire eligible? Workday board returns 422 — site name unknown, disabled."
+    enabled: false
 
   - name: ServiceNow
     careers_url: https://jobs.smartrecruiters.com/ServiceNow
