@@ -1,0 +1,71 @@
+candidate:
+  full_name: "Tushar Ranjan"
+  email: "tushar.uz@gmail.com"
+  phone: "+1-469-664-3717"
+  location: "Austin, TX"
+  linkedin: "linkedin.com/in/tusharranjan2904"
+  portfolio_url: ""
+  github: ""
+
+target_roles:
+  primary:
+    - "Forward Deployed Engineer"
+    - "Staff AI Engineer"
+    - "Lead Test Engineer / AI Automation"
+    - "AI Platform Engineer"
+  archetypes:
+    - name: "AI Forward Deployed Engineer"
+      level: "Senior/Staff"
+      fit: "primary"
+    - name: "Agentic Workflows / Automation"
+      level: "Staff"
+      fit: "primary"
+    - name: "AI Platform / LLMOps"
+      level: "Senior/Staff"
+      fit: "primary"
+    - name: "Lead Test Engineer"
+      level: "Staff"
+      fit: "primary"
+    - name: "Solutions Architect"
+      level: "Senior"
+      fit: "secondary"
+
+narrative:
+  headline: "Staff Engineer building production agentic AI systems — MCP, Claude Code, LLM evaluation"
+  exit_story: >
+    14+ years in QA and test automation across financial services, retail, and tech.
+    For the last 3 years at Visa, shifted from test infrastructure into building agentic
+    AI systems from scratch — evaluation frameworks, MCP servers, multi-agent orchestration
+    with Claude Code. The testing background is the foundation; the agentic work is where
+    I'm going full-time.
+  superpowers:
+    - "Building agentic pipelines end-to-end — MCP architecture, Claude Code Agent Teams, Dynamic Workflows"
+    - "LLM evaluation frameworks — built GVAL-based eval system comparing models against same spec"
+    - "Full-stack ownership from HLD to testing as single-person delivery unit (Builders program)"
+    - "Deep Visa card payments domain + enterprise-scale deployment (100+ engineers, mission-critical systems)"
+    - "Bridging QA rigor with AI innovation — uniquely positioned at intersection of reliability and agentic systems"
+  proof_points:
+    - name: "EVAL Framework"
+      url: ""
+      hero_metric: "Grades Visa agentic systems across LLMs using GVAL — side-by-side model comparison"
+    - name: "Automated Test Orchestration with MCP"
+      url: ""
+      hero_metric: "Zero-handoff QA pipeline at scale across all Visa card payments teams"
+    - name: "MCP Server Architecture"
+      url: ""
+      hero_metric: "Spring AI MCP servers connecting Oracle, GitHub, JIRA, Wiki as agent tools"
+
+compensation:
+  target_range: "$250K+"
+  currency: "USD"
+  minimum: "$200K"
+  location_flexibility: "Remote or hybrid — no relocation required, Austin TX base"
+
+location:
+  country: "United States"
+  city: "Austin"
+  timezone: "CST"
+  visa_status: "No sponsorship needed"
+
+cv:
+  output_format: "html"
